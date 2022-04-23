@@ -1,0 +1,108 @@
+/***************contact page css styling*************/
+/*body styling*/
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../image/BackImage2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+/*article styling*/
+article {
+  height: 100vh;
+}
+/*login box styling
+adedd a good height and width
+and a good background color
+i put the box in the position i wanted
+with the help of position absolute and 
+padding and the margin*/
+.loginbox {
+  width: 370px;
+  height: 370px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  border-radius: 32px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 0.8;
+}
+/*avater image styling
+added the radius to make the image
+on a circle shape*/
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+/*h1 styling*/
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+/*loginbox p styling*/
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+/*login box input bar styling*/
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/*input bar styling*/
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+/*input bar styling*/
+
+.loginbox button {
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+/*input bar  hover styling*/
+
+.loginbox button:hover {
+  cursor: pointer;
+  background: darkred;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+/*loginbox a styling*/
+.loginbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+/*loginbox a hover styling*/
+
+.loginbox a:hover {
+  color: #ffc107;
+}

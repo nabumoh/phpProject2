@@ -1,0 +1,91 @@
+/*header styling*/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../image/BackImage3.jpg);
+    height: 100vh;
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /*title styling*/
+  .title {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    margin-left:470px;
+    margin-top:150px ;
+  
+  }
+  /*h1 styling*/
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 275px;
+  }
+  
+  h2 {
+    color: white;
+    text-transform: lowercase;
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 20px;
+    margin-right: 40px;
+  }
+  h3{
+    color: white;
+    font-size: 2.1rem;
+    margin-left: 420px;
+    margin-top: 30px;
+
+  }
+  
+  /*button styling*/
+  .button {
+    margin-top: 30px;
+      margin-left: 350px;
+  }
+  /*btn styling tghe main stlyling of the two buttons
+  the broder stylin
+  the position styling*/
+  .btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  /*btn one seperated styling*/
+  .btn-one {
+    font-family: "Roboto", sans-serif;
+    opacity: 0.7;
+    background-color: rgb(27, 189, 67);
+    /*text-transform:lowercase;*/
+   
+  }
+  /*btn two seperated styling*/
+  .btn-two {
+    background-color: rgb(160, 50, 7);
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /*btn two hover effecy styling*/
+  .btn-two:hover {
+    transition: all 0.5s ease-in;
+    opacity: 1;
+
+  }
+  .btn-one:hover {
+    transition: all 0.5s ease-in;
+    opacity: 1;
+
+  }
+  
+  

@@ -1,0 +1,154 @@
+/*This is the main styling CSS to the five pages
+(index,about,contact,gallery,news)
+we add this css to all page becuase 
+we want the css style on the five page
+to be the same *main* styling and then
+we put for every page a single css style to it
+to make the style seperated from each page.
+*/
+
+/*Main styling*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*Body Styling
+i added the background image and we add no repeate 
+becuase we dont want the image to repate several times
+we add a good height to the body to make a perfect positining
+to the children of the body
+*/
+body {
+  font-size: 62.5%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/*the Main nav styling*/
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+/*We add inline-block to the li*/
+.main-nav li {
+  display: inline-block;
+  top: 0px;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "roboto", sans-serif;
+  font-size: 1rem;
+}
+/*border styling with the active 
+it will be visible the moment 
+we click on the link*/
+.active a {
+  border: 1px solid white;
+}
+/*Hover effect on the border
+the border will be visible when we 
+hover the mouse on the opject*/
+.main-nav li a:hover {
+  border: 1px solid white;
+}
+/*Logo styling
+i added the position fixed*/
+.logo img {
+  width: 150px;
+  height: auto;
+  float: left;
+  position: fixed;
+}
+/*row styling
+i added the max width becuase we dont 
+want the row to make it bigger than its 
+original size*/
+.row {
+  max-width: 1200px;
+  margin: auto;
+  color: aqua;
+}
+
+/*Footer styling*/
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+
+}
+/*Fotter left side stlying*/
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 0.8rem;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+/* Footer links styling
+transition is when we hover on the link
+it will do the hover effect in the time 
+we put it to be */
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+  margin-right: 29px;
+}
+/*Fotter right side stlying*/
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+/*Fotter right side stlying*/
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+/*Footer hover styling*/
+.footer-distributed .footer-links a:hover {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  text-decoration: underline;
+  border: 1px solid black;
+  transition: all 0.5s ease-in;
+} /*Right Footer hover styling*/
+
+.footer-distributed .footer-right a:hover {
+  font-size: 1.5rem;
+  color: blue;
+  transition: all 0.5s ease-in;
+}
