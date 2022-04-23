@@ -1,2 +1,2 @@
 # phpProject2
-sharing second php project , using 
+sharing second php project
